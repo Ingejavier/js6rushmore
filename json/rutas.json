@@ -1,0 +1,34 @@
+[
+	{
+		"nombre":"portada",
+		"title":"Example - HOME",
+		"url":"/",
+		"subs":""
+	},
+	
+	{
+		"nombre":"seccion1",
+		"title":"Example - seccion1",
+		"url":"/seccion1",
+		"subs":""
+	},	
+	
+	{
+		"nombre":"seccion2",
+		"title":"Example - seccion2",
+		"url":"/seccion2",
+		"subs":
+		[
+		  {
+		  	"nombre":  "subseccion1",
+			"title":"Example - Subseccion1 de Seccion 2",
+			"url":"/subseccion1"
+		  },
+		  {
+		  	"nombre": "subseccion2",
+			"title":"Example - Subseccion2 de Seccion 2",
+			"url":"/subseccion2"
+		  }		  		
+		]
+	}
+]

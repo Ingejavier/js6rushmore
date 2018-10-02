@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="stylesheet" href="/css/site.css">
+
+    <script src="/lib/jquery/jquery-1.10.2.js"></script>
+	<script src="/lib/gs/src/TweenMax.js"></script>
+    
+	<script src="/lib/jquery/loader/jquery.html5Loader.js"></script>
+    <script src="/lib/jquery/loader/nprogress.js"></script>
+    <script src="/lib/utils/funtionUtilities.js"></script>
+    <script src="/lib/utils/isMobile.js"></script>
+
+	<script src="/lib/bundled/jquery.history.js"></script>
+	<script src="/lib/bundled/pushstate.js"></script>    
+    
+    <script src="/lib/crossroads/signals.js"></script>    
+    <script src="/lib/crossroads/hasher.min.js"></script>    
+    <script src="/lib/crossroads/crossroads.js"></script>    
+
+	<script src="/lib/loading.js"></script>  
+    <script src="/lib/eventos.js"></script>  
+    <script src="/lib/secuenciador.js"></script>  
+
+    <script src="/lib/navigation.js"></script>
+
+    <!-- secciones para el site en concreto -->
+    <script src="/lib/book.js"></script>
+
+    <script src="/lib/secciones/portada.js"></script>
+    <script src="/lib/secciones/seccion1.js"></script>
+    <script src="/lib/secciones/seccion2.js"></script>
+    <script src="/lib/secciones/subseccion1.js"></script>
+    <script src="/lib/secciones/subseccion2.js"></script>
+
+<title>Codigo</title>
+</head>
+<script>
+	window.onload = function () { book_.init (); }
+</script>
+<body>
+
+<div id="loadiv">Cargado 0%</div>
+
+    <div id="menu">
+        <div id="sec0">Ir a Portada</div>
+    
+        <div id="sec1">Ir a sec1</div>
+        <div id="sec2">Ir a sec2</div>
+        
+        <div id="sub1">sub1 de sec2</div>
+        <div id="sub2">sub2 de sec2</div>
+    </div>
+
+    <div id="contenido">
+        <div id="portada"><span>PORTADA</span></div>
+
+        <div id="seccion1"><span>SECCION 1</span></div>
+        <div id="seccion2"><span>SECCION 2</span></div>
+
+        <div id="subseccion1"><span>SUBSECCION 1</span></div>
+        <div id="subseccion2"><span>SUBSECCION 2</span></div>
+
+    </div>
+
+</body>
+</html>

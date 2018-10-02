@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+
+html {
+   font-size:62.5%;
+}
+
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	font-family: "Raleway", sans-serif;
+}
+
+/*
+	CSS LOADING	
+*/
+
+#loadiv {
+	position: absolute;	
+	left:50%;
+	top: 50%;
+}
+
+/*
+
+CSS para trabajo
+
+*/
+
+#menu {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+
+	z-index: 101;
+	}
+
+#sec0 {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	cursor:pointer;
+	}
+
+#sec1 {
+	position:absolute;
+	top: 0px;
+	left: 100px;
+	cursor:pointer;
+	}
+
+#sec2 {
+	position:absolute;
+	top: 0px;
+	left: 200px;
+	cursor:pointer;
+	}
+
+
+#sub1 {
+	position:absolute;
+	top: 40px;
+	left: 200px;
+	cursor:pointer;
+}
+
+#sub2 {
+	position:absolute;
+	top: 40px;
+	left: 300px;
+	width:35px;	
+	cursor:pointer;
+}
+
+
+/*
+
+	CSS contenido
+
+*/
+
+#contenido {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;
+}
+
+#portada {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: #cccccc;
+
+    opacity: 0;
+    filter: alpha(opacity=0); 
+}
+
+	#portada span{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+
+		font-size: 18px;
+	}
+
+#seccion1 {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;
+
+    opacity: 0;
+    filter: alpha(opacity=0); 
+
+    background-color: #f20000;
+}
+
+	#seccion1 span{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+
+		font-size: 18px;		
+	}
+
+#seccion2{
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;	
+
+	background-color: #f200f2;
+
+    opacity: 0;
+    filter: alpha(opacity=0); 
+}
+
+	#seccion2 span{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+
+		font-size: 18px;		
+	}
+
+
+#subseccion1 {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;	
+
+	background-color: #f2f200;
+
+    opacity: 0;
+    filter: alpha(opacity=0); 
+}
+
+	#subseccion1 span{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+
+		font-size: 18px;		
+	}
+
+#subseccion2 {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width: 100%;
+	height: 100%;	
+
+	background-color: #00f2f2;
+
+    opacity: 0;
+    filter: alpha(opacity=0); 
+}
+
+	#subseccion2 span{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+
+		font-size: 18px;		
+	}
