@@ -1,0 +1,300 @@
+/*
+//////////////////////////////////////////////////////
+////////////////////////VERANO////////////////////////
+//////////////////////////////////////////////////////
+*/
+
+#verano {
+	position: absolute;
+
+	overflow: hidden;
+	width: 300px;
+	height: 250px;
+
+  left:0px;
+  top:0px;
+}
+
+#fondo_verano {
+	position: absolute;
+}
+
+#raysummer {
+  position: absolute;
+  left:0px;
+  top: 0px;
+}
+
+#luzsummer {
+  position: absolute;
+  left:0px;
+  top: 0px;
+}
+
+#heart {
+	position: absolute;
+
+	width:300px;
+	height: 300px;
+
+	left: 10px;
+	top:0px;
+
+	/*background-color: red;*/
+}
+
+#virutas {
+	position: absolute;
+
+	left: 0px;
+	top: 0px;
+
+	width:10px;
+	height: 10px;
+
+	/*background-color: blue;*/
+}
+
+.viru {
+	position: absolute;
+	left:0px;
+	top:0px;
+
+	width: 3px;
+	height: 3px;
+
+  display: none; 
+  opacity: .6;
+  filter: alpha(opacity=60);
+
+}
+
+#letras_11
+{
+  position: absolute;
+  left: 164px;
+  top: 138px;
+  width: 64px;
+  height: 15px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+#letras_10
+{
+  position: absolute;
+  left: 216px;
+  top: 118px;
+  width: 14px;
+  height: 23px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+#letras_9
+{
+  position: absolute;
+  left: 191px;
+  top: 120px;
+  width: 34px;
+  height: 34px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+#letras_8
+{
+  position: absolute;
+  left: 185px;
+  top: 139px;
+  width: 7px;
+  height: 16px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+#letras_7
+{
+  position: absolute;
+  left: 185px;
+  top: 128px;
+  width: 9px;
+  height: 13px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+#letras_6
+{
+  position: absolute;
+  left: 182px;
+  top: 129px;
+  width: 10px;
+  height: 19px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#letras_5
+{
+  position: absolute;
+  left: 190px;
+  top: 146px;
+  width: 9px;
+  height: 14px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+
+#letras_4
+{
+  position: absolute;
+  left: 163px;
+  top: 137px;
+  width: 12px;
+  height: 16px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#letras_3
+{
+  position: absolute;
+  left: 160px;
+  top: 126px;
+  width: 8px;
+  height: 12px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+#letras_2
+{
+  position: absolute;
+  left: 161px;
+  top: 134px;
+  width: 4px;
+  height: 11px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+#letras_1
+{
+  position: absolute;
+  left: 162px;
+  top: 144px;
+  width: 3px;
+  height: 8px;
+  z-index: 22;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+
+
+/*
+//////////////////////////////////////////////////////
+/////////////////////////RESTO////////////////////////
+//////////////////////////////////////////////////////
+*/
+
+#logo {
+	position: absolute;
+
+	left: 173px;
+	top: 178px;
+
+  z-index: 1000;
+}
+
+
+#copy1 {
+  position: absolute;
+
+  left: 18px;
+  top: 42px;
+
+  opacity: 0;
+  filter: alpha(opacity=0);  
+}
+
+#copy2 {
+  position: absolute;
+
+  left: 18px;
+  top: 154px;
+
+  opacity: 0;
+  filter: alpha(opacity=0);  
+}
+
+#naranja {
+ 
+  position: absolute;
+
+  left: 0px;
+  top: 0px;
+
+  width: 300px;
+  height: 250px;
+
+  background-color: #e56500;
+
+
+  opacity: 0;
+  filter: alpha(opacity=0); 
+
+  z-index: 100;
+}
+
+#oferta {
+ 
+  position: absolute;
+
+  left: 17px;
+  top: 17px;
+
+  width: 255px;
+  height: 154px;
+
+  opacity: 0;
+  filter: alpha(opacity=0); 
+
+  z-index: 101;
+}
+
+
+#masinfo {
+ 
+  position: absolute;
+
+  left: 17px;
+  top: 189px;
+
+  width: 80px;
+  height: 32px;
+
+  opacity: 0;
+  filter: alpha(opacity=0); 
+
+  z-index: 101;
+}
