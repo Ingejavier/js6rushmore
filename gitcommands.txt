@@ -1,0 +1,43 @@
+Clonar un repositorio:
+
+	git clone https://github.com/user/repo.git
+
+
+Cambio de rama
+
+	git checkout nombre_de_rama
+
+
+Crear una rama nueva
+	
+	git checkout -b nombre_de_rama_nueva
+
+
+Mirar en que rama estas:
+
+	git branch
+
+
+Añadir todos los ficheros a una rama:
+
+	git add .
+
+
+Añadir solo ciertos ficheros:
+
+	git add ruta_al_fichero/fichero.js ruta_al_fichero/fichero2.js
+
+
+Crear un commit:
+	
+	git commit -m 'nombredelcommit'
+
+
+Push de los cambios al repositorio online
+
+	git push origin nombrerama
+
+
+Pull del repositorio
+
+	git pull
